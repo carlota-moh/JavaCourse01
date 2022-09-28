@@ -11,5 +11,16 @@ public class UserInput {
         String surname = scanner.next();
 
         System.out.println("Hello " + name + " " + surname);
+
+        System.out.println("Please enter you age:");
+        int age = scanner.nextInt();
+
+        System.out.println(age);
+
+        System.out.println("What is your favorite food?");
+        String food = scanner.next();
+
+        System.out.println("I like " + food + " too!");
+
     }
 }
