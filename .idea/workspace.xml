@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c8188a0-5244-4221-9032-82fb69df9137" name="Changes" comment="Variables and user input files created">
-      <change beforePath="$PROJECT_DIR$/src/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInput.java" afterDir="false" />
+    <list default="true" id="2c8188a0-5244-4221-9032-82fb69df9137" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AreaApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DiceApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Expressions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUIApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,16 +32,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.UserInput">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+}</component>
+  <component name="RunManager" selected="Application.DiceApp">
+    <configuration name="AreaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AreaApp" />
+      <module name="JavaCourse01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DiceApp" />
+      <module name="JavaCourse01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Expressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Expressions" />
+      <module name="JavaCourse01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GUIApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUIApp" />
       <module name="JavaCourse01" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -50,18 +75,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Variables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Variables" />
-      <module name="JavaCourse01" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DiceApp" />
+        <item itemvalue="Application.AreaApp" />
+        <item itemvalue="Application.Expressions" />
+        <item itemvalue="Application.GUIApp" />
         <item itemvalue="Application.UserInput" />
-        <item itemvalue="Application.Variables" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -73,7 +93,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664352684404</updated>
-      <workItem from="1664352686086" duration="2218000" />
+      <workItem from="1664352686086" duration="2545000" />
+      <workItem from="1664444048890" duration="2815000" />
     </task>
     <task id="LOCAL-00001" summary="Variables and user input files created">
       <created>1664354616831</created>
@@ -82,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664354616831</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated UserInput with food prompt after age">
+      <created>1664355006540</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664355006540</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +129,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Variables and user input files created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Variables and user input files created" />
+    <MESSAGE value="Updated UserInput with food prompt after age" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated UserInput with food prompt after age" />
   </component>
 </project>
